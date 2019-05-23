@@ -10,7 +10,7 @@ Vue.config.productionTip = false
 
 const httpLink = new HttpLink({
     // You should use an absolute URL here
-    uri: 'http://localhost:8080/v1/graphql'
+    uri: 'http://hasura.westus.azurecontainer.io/v1/graphql'
 })
 
 /*const authLink = setContext((_, { headers }) => {
