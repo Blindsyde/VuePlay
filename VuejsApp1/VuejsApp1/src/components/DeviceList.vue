@@ -2,7 +2,7 @@
     <div>
         <h4 v-if="loading">Loading...</h4>
         <device-item v-for="device in devices"
-                   :key="device.deviceId"
+                   :key="device.DeviceId"
                    :device="device">
         </device-item>
     </div>

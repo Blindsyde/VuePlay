@@ -1,5 +1,5 @@
 <template>
-    <div>{{device.deviceName}} in {{device.deviceLocation}}</div>
+    <div>{{device.Name}} in {{device.Location}} owned by </div>
 </template>
 
 <script>
