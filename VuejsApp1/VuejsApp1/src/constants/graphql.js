@@ -1,22 +1,18 @@
 import gql from 'graphql-tag'
 
 export const ALL_DEVICES_QUERY = gql`
-  query devices {
-    devices {
-        DeviceId
-        Location
-        Name
-    }
+  {
+  devices {
+    DeviceId
+    Location
+    Name
+    UserId
   }
-`
-
-export const ALL_USERS_QUERY = gql`
-  query users {
-    users {
-        FirstName
-        LastName
-        EmailAddress
-        DeviceId
-    }
+  users {
+    FirstName
+    LastName
+    EmailAddress
+    UserId
   }
+}
 `

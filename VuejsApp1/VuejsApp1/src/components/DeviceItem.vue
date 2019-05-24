@@ -1,10 +1,10 @@
 <template>
-    <div>{{device.Name}} in {{device.Location}} owned by </div>
+    <div>{{device.Name}} in {{device.Location}} owned by {{user.FirstName}}</div>
 </template>
 
 <script>
   export default {
     name: 'DeviceItem',
-    props: ['device']
+    props: ['device', 'user']
   }
 </script>
