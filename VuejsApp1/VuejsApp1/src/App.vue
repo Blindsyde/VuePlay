@@ -1,18 +1,18 @@
 <template>
     <div id="app" class="background">
         <div>
-            <h1>Devices I have</h1>
-            <device-list></device-list>
+            <h1>Devices by User</h1>
+            <info-list></info-list>
         </div>
     </div>
 </template>
 
 <script>
-    import DeviceList from './components/DeviceList'
+    import InfoList from './components/InfoList'
     export default {
         name: 'app',
         components: {
-            DeviceList
+            InfoList
         }
     }
 </script>
