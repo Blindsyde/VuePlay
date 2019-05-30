@@ -1,18 +1,16 @@
 import gql from 'graphql-tag'
 
-export const ALL_DEVICES_QUERY = gql`
+export const ALL_INFO_QUERY = gql`
   {
-  devices {
-    DeviceId
-    Location
-    Name
-    UserId
-  }
-  users {
-    FirstName
-    LastName
-    EmailAddress
-    UserId
+  allinfo {
+    userid
+    firstname
+    lastname
+    emailaddress
+    deviceid
+    devicename
+    devicelocation
+    deviceserialnumber
   }
 }
 `

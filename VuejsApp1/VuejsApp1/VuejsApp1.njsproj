@@ -33,8 +33,8 @@
     <Content Include="public\favicon.ico" />
     <Content Include="public\index.html" />
     <Content Include="src\App.vue" />
-    <Content Include="src\components\DeviceItem.vue" />
-    <Content Include="src\components\DeviceList.vue" />
+    <Content Include="src\components\InfoItem.vue" />
+    <Content Include="src\components\InfoList.vue" />
     <Content Include="src\components\DeviceManager.vue">
       <SubType>Code</SubType>
     </Content>
